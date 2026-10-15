@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "ilham-2",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
@@ -43,9 +43,10 @@
     "tailscale": {
       "status": "ok",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "magicdns": "ilham-2.taild2b3c7.ts.net.",
-      "hostname": "ilham-2",
-      "ip": "100.72.35.7"
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     }
   },
   "media": {
@@ -118,5 +119,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-10-15T20:35:10.9025677Z"
+  "heartbeat_at": "2026-10-15T20:35:10.9025677Z",
+  "stopped_at": "2026-10-15T20:39:08Z"
 }
