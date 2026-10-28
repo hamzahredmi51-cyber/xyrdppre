@@ -1,5 +1,5 @@
 {
-  "active": true,
+  "active": false,
   "hostname": "rdpfree-7",
   "os": "Microsoft Windows Server 2025 Datacenter",
   "os_build": "10.0.26100",
@@ -40,11 +40,12 @@
   },
   "akses": {
     "tailscale": {
-      "magicdns": "rdpfree-7.taild2b3c7.ts.net.",
       "note": "HP/PC harus login Tailscale pada tailnet yang sama. TCP 3389 harus diizinkan ACL.",
-      "ip": "100.73.48.94",
-      "hostname": "rdpfree-7",
-      "status": "ok"
+      "status": "ok",
+      "ip": "",
+      "magicdns": "",
+      "hostname": "",
+      "funnel_addr": ""
     },
     "mode": "tailscale"
   },
@@ -132,5 +133,6 @@
     "errors": [],
     "public_port": false
   },
-  "heartbeat_at": "2026-10-28T15:42:14.0119277Z"
+  "heartbeat_at": "2026-10-28T15:42:14.0119277Z",
+  "stopped_at": "2026-10-28T15:44:03Z"
 }
